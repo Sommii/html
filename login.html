@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Login page</title>
+<style>
+table
+{
+	margin:-15% 30% 1% 30%;
+	background-color:blue;
+	padding:1%;
+}
+td
+{
+	padding:1%;
+}
+</style>
+
+
+</head>
+
+
+<body>
+
+<Table >
+	<form>
+		<tr><td><label>First Name:</label></td>
+		<td><input type="text" name="fname" placeholder="type your first name"  required></td></tr>
+		<br><br>
+
+		<tr><td><label>Last Name:</label></td>
+		<td><input type="text" name="Lname" placeholder="type your last name"  required></td></tr>
+		<br><br>
+
+		<tr><td><label>BirthDate:</label></td>
+		<td><input type="date" name="bday"  required></tr></td>
+		<br><br>
+
+		<tr><td><label>Email_Id:</label></td>
+		<td><input type="email" name="user_id" placeholder="@gmail.com"  multiple,required></td></tr>
+		<br><br>
+
+		<tr><td><label>Contact Number:</label></td>
+		<td><input type="tel" name="telno" maxlength="10" placeholder="9999999999"  required></td></tr>
+		<br><br>
+
+		<tr><td><label>Gender:</label><br></td>
+		<td><input type="radio" name="gender">Male<br>
+		<input type="radio" name="gender">Female</td></tr><br><br>
+
+		<tr><td><label>Address:</label></td>
+		<td><textarea placeholder="Enter Address"></textarea></td></tr>
+		<br><br>
+
+		<tr><td colspan="2"><button type="submit" onclick="alert('You Have Successfully Submitted The Form')">Submit</button>
+		<button type="reset">Reset</button></td></tr>
+	</form>
+	</Table>
+	
+</body>
+</html>
